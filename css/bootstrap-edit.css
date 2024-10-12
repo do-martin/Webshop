@@ -1,0 +1,196 @@
+a.carousel-inner:hover {
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+
+.form-control::placeholder {
+    font-size: 13px;
+}
+
+.form-control:focus {
+    border-color: #6c757d;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+
+
+.price-range {
+    position: relative;
+}
+
+.price-range__min,
+.price-range__mid,
+.price-range__max {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 33.33%;
+    /* Divide the label into three equal parts */
+}
+
+.price-range__min {
+    left: 0;
+}
+
+.price-range__mid {
+    left: 33.33%;
+    /* Align the middle price range in the center */
+}
+
+.price-range__max {
+    right: 0;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    font-weight: bold;
+    background-color: #6c757d;
+}
+
+.form-check-input:checked {
+    background-color: #6c757d;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.form-check-input:checked:focus {
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.1);
+}
+
+.form-check-input:not(:checked):focus {
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.1);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+input[type=range]::-webkit-slider-thumb:active {
+    background-color: #6c757d;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.1);
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+    background-color: #6c757d;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.1);
+}
+
+.form-range:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.form-range:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn-sort-products:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-show-filter:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.form-select:focus {
+    border-color: #6c757d;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.form-select option:hover {
+    background-color: #6c757d !important;
+
+}
+
+.form-select option:focus {
+    background-color: #6c757d !important;
+
+}
+
+.form-select option:checked {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:checked:hover {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:focus {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:focus:hover {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:active {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:active:hover {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:active:focus {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:active:focus:hover {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:active:focus:hover {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:active:focus:hover {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+.form-select option:active:focus:hover {
+    background-color: #6c757d !important;
+    color: white;
+}
+
+
+/*checkbox von bootstrap farbe ändern*/
+.custom-control-input:checked {
+    background-color: #6c757d !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.hovered-option {
+    background-color: lightgray !important;
+    color: black !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon) !important;
+  }

@@ -1,0 +1,102 @@
+.navbar-font-upper {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: large;
+}
+
+
+.my-data-nav-link:hover {
+    background-color: #5c636a;
+    color:white;
+}
+
+.my-data-nav-link:hover .my-data-nav-link-text {
+    color: white;
+}
+
+.password-nav-link:hover {
+    background-color: #5c636a;
+}
+
+.password-nav-link:hover .password-nav-link-text {
+    color: white !important;
+}
+
+.password-nav-link:hover {
+    color:white;
+}
+
+.nav-link:hover {
+    font-weight: bolder;
+}
+
+.nav-btn-dropdown:hover {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-tel:hover {
+    font-weight: bolder;
+}
+
+.a-email:hover {
+    font-weight: bolder;
+}
+
+.a-street:hover {
+    font-weight: bolder;
+}
+
+.a-street:hover h5 {
+    font-weight: bolder;
+}
+
+.navbar a:hover {
+    font-weight: bolder;
+}
+
+.my-account-dropdown:hover{
+    font-weight: bolder;
+}
+
+.my-account-dropdown{
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 18px !important;
+}
+
+.dropdown-menu.show{
+    border-radius: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Added CSS classes to handle styling */
+.nav-btn-dropdown {
+    padding: 0px !important;
+  }
+  
+  .my-data-nav-link-text, .password-nav-link-text {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: large;
+  }
+  
+  .dropdown-menu-bottom {
+    /* To make the dropdown open directly below the button */
+    top: 100% !important;
+    left: 0 !important;
+    transform: translate3d(0, 0, 0) !important;
+  }

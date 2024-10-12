@@ -1,0 +1,39 @@
+.user-window {
+    position: absolute;
+    bottom: calc(100%);
+    right: 0;
+    width: 250px;
+    display: none;
+    z-index: 5;
+}
+
+
+.user-status {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.user-online {
+    background-color: green;
+}
+
+.user-offline {
+    background-color: red;
+}
+
+.online-users:hover {
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.5s ease;
+    z-index: 5; 
+    display: none; 
+    padding: 20px;
+}

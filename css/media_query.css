@@ -1,0 +1,118 @@
+@media screen and (max-width: 275px) {
+    .navbar-brand {
+        font-size: 9vw !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbar-brand {
+        font-size: 8vw !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .products-headline {
+        font-size: 20px !important;
+    }
+
+    .products-header {
+        font-size: 4vw !important;
+        padding: 1vw !important;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .footer-header {
+        font-size: 16px !important;
+
+    }
+
+    .footer-body {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer .col-sm-4 {
+        margin-bottom: 20px !important;
+    }
+}
+
+.btn.my-order-header {
+    font-size: 35px !important;
+}
+
+@media screen and (max-width:480px) {
+    .my-order-header {
+        font-size: 7vw !important;
+    }
+
+    .btn.my-order-header {
+        font-size: 7vw !important;
+        padding: 5px !important;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .my-order-header {
+        font-size: 6vw !important;
+    }
+
+    .btn.my-order-header {
+        font-size: 6vw !important;
+    }
+}
+
+.btn-reorder-mq {
+    display: none;
+}
+
+@media screen and (max-width:400px) {
+    .my-order-width {
+        min-width: 250px !important;
+        width: 100vw !important;
+    }
+
+    .btn-reorder {
+        display: none !important;
+    }
+
+    .btn-reorder-mq {
+        display: block !important;
+    }
+}
+
+.my-data-width {
+    width: 30% !important;
+    min-width: 400px !important;
+}
+
+@media screen and (max-width:400px) {
+    .my-data-width {
+        min-width: 250px !important;
+        width: 95% !important;
+    }
+
+    .btn-my-data {
+        padding: 10px 5px !important;
+        width: 95% !important;
+        font-size: 5vw;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+
+    .carousel-caption {
+        bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .carousel-caption h1,h2,h3,h4,h5,h6{
+        font-size: 15px !important;
+    }
+
+    .carousel-caption p{
+        font-size: 12px !important;
+    }
+}

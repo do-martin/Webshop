@@ -1,0 +1,38 @@
+version: '3.3'
+
+services:
+  web:
+    build:
+      context: .
+    image: mado96/hsrt-webshop:latest
+    ports:
+      - "8080:80" # Mappt Port 80 im Container auf Port 8080 des Hosts
+    volumes:
+      - .:/var/www/html # Mappt das aktuelle Verzeichnis auf das Verzeichnis im Container
+    env_file:
+      - .env # Lädt die Umgebungsvariablen aus der .env-Datei (optional, wenn du diese nicht im Dockerfile kopierst)
+    restart: always # Startet den Container automatisch neu, wenn er stoppt
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433"  # Standardport für SQL Server
+    environment:
+      - ACCEPT_EULA=Y  # Zustimmung zur Lizenz
+      - SA_PASSWORD=DeinSicheresPasswort123  # Setze ein starkes Passwort
+      - MSSQL_PID=Express  # Optional: Verwende die Express Edition
+    volumes:
+      - mssql_data:/var/opt/mssql  # Volumen für persistente Speicherung
+    restart: always  # Startet den Container automatisch neu, wenn er stoppt
+
+# Optional: Definiere Netzwerke und Volumes, falls notwendig
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
+  mssql_data:
+    driver: local

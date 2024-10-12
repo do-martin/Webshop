@@ -1,0 +1,8 @@
+email_template/rsc/*.png
+rsc/
+vendor/
+.env
+azure-pipelines-1.yml
+azure-pipelines.yml
+configuration_english.txt
+configuration_german.txt
