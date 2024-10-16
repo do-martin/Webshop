@@ -50,22 +50,22 @@ Welcome to the **Webshop** project! This application is developed as part of my 
 
 5. **Environment Configuration**:
 
-To set up your environment, create a `.env` file in the root directory of the project with the following content:
+    To set up your environment, create a `.env` file in the root directory of the project with the following content:
 
-```plaintext
-DB_SERVER=YOUR_DB_SERVER
-DB_USERNAME=YOUR_DB_USERNAME
-DB_PASSWORD=YOUR_DB_PASSWORD
-DB_NAME=YOUR_DB_NAME
+    ```plaintext
+    DB_SERVER=YOUR_DB_SERVER
+    DB_USERNAME=YOUR_DB_USERNAME
+    DB_PASSWORD=YOUR_DB_PASSWORD
+    DB_NAME=YOUR_DB_NAME
 
-MAILHOST=YOUR_MAILHOST
-MAIL_USERNAME=YOUR_MAIL_USERNAME
-MAIL_PASSWORD=YOUR_MAIL_PASSWORD
-SEND_FROM=YOUR_SEND_FROM_EMAIL
-SEND_FROM_NAME=YOUR_SEND_FROM_NAME
-```
+    MAILHOST=YOUR_MAILHOST
+    MAIL_USERNAME=YOUR_MAIL_USERNAME
+    MAIL_PASSWORD=YOUR_MAIL_PASSWORD
+    SEND_FROM=YOUR_SEND_FROM_EMAIL
+    SEND_FROM_NAME=YOUR_SEND_FROM_NAME
+    ```
 
-Make sure to replace the placeholders with your actual database and email configuration details.
+    Make sure to replace the placeholders with your actual database and email configuration details.
 
 6. **Start the Application Using Docker**:
     ```bash
