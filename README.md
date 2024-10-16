@@ -31,24 +31,30 @@ Make sure to replace the placeholders with your actual database and email config
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/webshop.git
+    git clone https://github.com/do-martin/Webshop.git
     cd webshop
     ```
 
 2. **Install Dependencies**:
+   Open your command line interface and run:
     ```bash
-    npm install
+    composer install
     ```
 
 3. **Set Up Your Database**:
-   Execute the SQL commands found in the `SQL` folder to set up the necessary database schema and data.
+   - Execute the SQL commands found in the `SQL` folder to set up the necessary database schema and data.
+   - Replace the path in the `11_insert_into_products.sql` file with your desired path for the clothing images. Ensure that the images are accessible from your application.
 
-4. **Start the Application Using Docker**:
+4. **Add Clothing Images**:
+   - Create a folder named `rsc` in the root directory of your project.
+   - Add your desired clothing images into this `rsc` folder.
+
+5. **Start the Application Using Docker**:
     ```bash
     docker-compose up
     ```
 
-5. **To Stop the Application**:
+6. **To Stop the Application**:
     ```bash
     docker-compose down
     ```

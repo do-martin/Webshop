@@ -1,5 +1,6 @@
 email_template/rsc/*.png
 rsc/
+SQL/MySQL/
 vendor/
 .env
 azure-pipelines-1.yml
