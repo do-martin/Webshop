@@ -4,27 +4,28 @@ Welcome to the **Webshop** project! This application is developed as part of my 
 
 ## Features
 
-- **Product Listings**: Explore a variety of products with detailed descriptions and images.
-- **User Login**: Secure user authentication to manage personal accounts and orders.
-- **Registration**: Users can create an account to access personalized features.
-- **Shopping Cart**: Easily add, remove, and update products in your cart for a smooth shopping experience.
-- **Product Display**: Showcase products with high-quality images, pricing, and specifications.
+- **Login Functionality**: Users can log in using their email address (as a username) and a password, with validation for both fields before submission.
+- **User Registration**: New users can register by providing their email address, which must be unique and not empty. Upon registration, a randomly generated password is sent to the user via email for confirmation.
+- **Database Design**: The database includes tables for customers, logs, products, invoice headers and items, points, and shopping cart, with passwords securely stored using SHA512 encryption.
+- **Points Bonus System**: Users earn points for logins (2 points) and purchases (25 points), which are displayed after login and can be redeemed at checkout (100 points = $0.10).
+- **Product Listings**: Showcase products with high-quality images, pricing, and specifications.
+- **Shopping Cart Management**: Users can add items to their cart, remove them, and adjust quantities, with discounts applied for purchasing multiple identical items.
+- **Checkout Process**: Each order receives a unique order number, and users can choose from various shipping options, with a checkbox for confirming privacy policy acceptance during the checkout process.
 - **Order History**: Users can easily access past orders and reorder items.
+- **Email Confirmation**: After payment, users receive an email containing their order details, including an invoice.
+- **User Interface**: A navigation bar displays a cart icon showing the number of items, and a welcoming message appears on the homepage after login, along with a carousel display.
+- **Security and Accessibility**: Certain pages require user login to access, while product listings are available without login, ensuring a clear and user-friendly design.
+- **Two-Factor Authentication**: Enhance security with two-factor authentication for user accounts.
 - **Password Reset**: Allow users to securely reset their passwords if forgotten.
 - **Logout**: Securely log out of user accounts to protect personal information.
-- **Checkout Process**: A streamlined experience for placing orders, including shipping options and payment methods.
-- **Two-Factor Authentication**: Enhance security with two-factor authentication for user accounts.
 
 ## Technologies Used
 
 - **PHP Mailer**: Utilized for sending emails, such as password resets and order confirmations.
-- **Microsoft SQL Server**: The chosen database for storing user and product information.
+- **PHPGangsta**: Implemented for handling two-factor authentication.
 - **Bootstrap**: Used for responsive styling to ensure a modern and user-friendly interface.
 - **Custom CSS**: Additional styling to tailor the look and feel of the webshop.
-- **PHPGangsta**: Implemented for handling two-factor authentication.
-
-## Installation
-
+- **Microsoft SQL Server**: The chosen database for storing user and product information.
 
 ## Getting Started
 
