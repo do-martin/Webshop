@@ -6,26 +6,25 @@ Welcome to the **Webshop** project! This application is developed as part of my 
 
 - **Product Listings**: Explore a variety of products with detailed descriptions and images.
 - **User Login**: Secure user authentication to manage personal accounts and orders.
+- **Registration**: Users can create an account to access personalized features.
 - **Shopping Cart**: Easily add, remove, and update products in your cart for a smooth shopping experience.
+- **Product Display**: Showcase products with high-quality images, pricing, and specifications.
+- **Order History**: Users can easily access past orders and reorder items.
+- **Password Reset**: Allow users to securely reset their passwords if forgotten.
+- **Logout**: Securely log out of user accounts to protect personal information.
+- **Checkout Process**: A streamlined experience for placing orders, including shipping options and payment methods.
+- **Two-Factor Authentication**: Enhance security with two-factor authentication for user accounts.
+
+## Technologies Used
+
+- **PHP Mailer**: Utilized for sending emails, such as password resets and order confirmations.
+- **Microsoft SQL Server**: The chosen database for storing user and product information.
+- **Bootstrap**: Used for responsive styling to ensure a modern and user-friendly interface.
+- **Custom CSS**: Additional styling to tailor the look and feel of the webshop.
+- **PHPGangsta**: Implemented for handling two-factor authentication.
 
 ## Installation
 
-To set up your environment, create a `.env` file in the root directory of the project with the following content:
-
-```plaintext
-DB_SERVER=YOUR_DB_SERVER
-DB_USERNAME=YOUR_DB_USERNAME
-DB_PASSWORD=YOUR_DB_PASSWORD
-DB_NAME=YOUR_DB_NAME
-
-MAILHOST=YOUR_MAILHOST
-MAIL_USERNAME=YOUR_MAIL_USERNAME
-MAIL_PASSWORD=YOUR_MAIL_PASSWORD
-SEND_FROM=YOUR_SEND_FROM_EMAIL
-SEND_FROM_NAME=YOUR_SEND_FROM_NAME
-````
-
-Make sure to replace the placeholders with your actual database and email configuration details.
 
 ## Getting Started
 
@@ -49,12 +48,31 @@ Make sure to replace the placeholders with your actual database and email config
    - Create a folder named `rsc` in the root directory of your project.
    - Add your desired clothing images into this `rsc` folder.
 
-5. **Start the Application Using Docker**:
+5. **Environment Configuration**:
+
+To set up your environment, create a `.env` file in the root directory of the project with the following content:
+
+```plaintext
+DB_SERVER=YOUR_DB_SERVER
+DB_USERNAME=YOUR_DB_USERNAME
+DB_PASSWORD=YOUR_DB_PASSWORD
+DB_NAME=YOUR_DB_NAME
+
+MAILHOST=YOUR_MAILHOST
+MAIL_USERNAME=YOUR_MAIL_USERNAME
+MAIL_PASSWORD=YOUR_MAIL_PASSWORD
+SEND_FROM=YOUR_SEND_FROM_EMAIL
+SEND_FROM_NAME=YOUR_SEND_FROM_NAME
+```
+
+Make sure to replace the placeholders with your actual database and email configuration details.
+
+6. **Start the Application Using Docker**:
     ```bash
     docker-compose up
     ```
 
-6. **To Stop the Application**:
+7. **To Stop the Application**:
     ```bash
     docker-compose down
     ```
