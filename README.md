@@ -23,6 +23,7 @@ MAIL_USERNAME=YOUR_MAIL_USERNAME
 MAIL_PASSWORD=YOUR_MAIL_PASSWORD
 SEND_FROM=YOUR_SEND_FROM_EMAIL
 SEND_FROM_NAME=YOUR_SEND_FROM_NAME
+````
 
 Make sure to replace the placeholders with your actual database and email configuration details.
 
