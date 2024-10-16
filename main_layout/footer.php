@@ -3,7 +3,7 @@
     <div class="container" id="legal-disclosure">
         <div class="row">
             <div class="col-sm-4">
-                <a class="a-street" style="color:white;" href="https://www.google.com/maps/search/?api=1&query=Alteburgstraße%20150,%2072762%20Reutlingen" target="_blank">
+                <a class="a-street" style="color:white;" href="" target="_blank">
 
                     <h5 class="mb-1 footer-header">Styleshop</h5>
                     <div class="footer-body">Clothing according to the latest trend.</div>
