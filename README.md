@@ -43,7 +43,14 @@ Welcome to the **Webshop** project! This application is developed as part of my 
 
 3. **Set Up Your Database**:
    - Execute the SQL commands found in the `SQL` folder to set up the necessary database schema and data.
-   - Replace the path in the `11_insert_into_products.sql` file with your desired path for the clothing images. Ensure that the images are accessible from your application.
+   - Ensure the following values are included when inserting data into your database:
+     - **prod_name**: The name of the product.
+     - **price**: The price of the product.
+     - **item_inventory**: The available inventory quantity for the product.
+     - **path_img**: The path to the product image.
+     - **category**: The category of the product, which can be one of the following: `shorts`, `trouser`, `t-shirts`, `pullover`, `dress`, `blazer`, `blouse`, `coat`.
+     - **gender**: The gender for the product, which should be either `m` (male) or `w` (female).
+   - Update the `11_insert_into_products.sql` file to ensure all the above values are included with the correct data for each product. Make sure to replace the paths and other details to reflect your desired setup.
 
 4. **Add Clothing Images**:
    - Create a folder named `rsc` in the root directory of your project.
@@ -68,12 +75,16 @@ Welcome to the **Webshop** project! This application is developed as part of my 
 
     Make sure to replace the placeholders with your actual database and email configuration details.
 
-6. **Start the Application Using Docker**:
+6. **Change Image Paths**:
+   - Search the project for files with the `.webp` extension.
+   - Update the paths to the desired resources in these files to ensure they point to the correct location of your images.
+
+7. **Start the Application Using Docker**:
     ```bash
     docker-compose up
     ```
 
-7. **To Stop the Application**:
+8. **To Stop the Application**:
     ```bash
     docker-compose down
     ```

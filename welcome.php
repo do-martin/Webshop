@@ -82,7 +82,7 @@ if (!empty($_SESSION["username"]) && !empty($_SESSION["loggedin"]) && $_SESSION[
 <div id="carouselExampleControls" class="carousel slide bg-black carousel-height" data-ride="carousel">
     <div class="carousel-inner carousel-height">
         <div class="carousel-item active carousel-height">
-            <img class="d-block w-100" src="rsc/welcome/1711362877470-homepagefashiononedesktopjpg_3240x5760.webp" alt="First slide">
+            <img class="d-block w-100" src="rsc/welcome/yourMainImage2.webp" alt="First slide">
             <div class="carousel-caption d-sm-block">
                 <h3>Welcome <b><?php if ($user_gender == "m") {
                                     echo htmlspecialchars("Mr.");
@@ -95,14 +95,14 @@ if (!empty($_SESSION["username"]) && !empty($_SESSION["loggedin"]) && $_SESSION[
             </div>
         </div>
         <div class="carousel-item carousel-height">
-            <img class="d-block w-100" src="rsc/welcome/1691050806675-hpcorpoone2880x1260v21jpg_1260x2880.webp" alt="Second slide">
+            <img class="d-block w-100" src="rsc/welcome/yourMainImage3.webp" alt="Second slide">
             <div class="carousel-caption d-sm-block">
                 <h5>Shop, earn points, and save money</h5>
                 <p>You have <b><?php echo $points; ?></b> reward points.</p>
             </div>
         </div>
         <div class="carousel-item carousel-height">
-            <img class="d-block w-100" src="rsc/welcome/1710432541893-314ravdesktopjpg_1260x2880.webp" alt="Third slide">
+            <img class="d-block w-100" src="rsc/welcome/yourMainImage.webp" alt="Third slide">
             <div class="carousel-caption d-sm-block">
                 <h5>New fashion</h5>
                 <p>The latest from new here with us.</p>

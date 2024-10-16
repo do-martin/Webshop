@@ -62,7 +62,7 @@ function sendMail($destination_email, $first_name, $last_name, $generated_passwo
   $mail->AddEmbeddedImage('../email_template/rsc/twitter.png', 'twitter');
 
   if ($new_account == true) {
-    $mail->AddEmbeddedImage('../rsc/welcome/1711362877470-homepagefashiononedesktopjpg_3240x5760.webp', 'home');
+    $mail->AddEmbeddedImage('../rsc/welcome/yourMainImage2.webp', 'home');
 
     $mail->Subject = "Welcome to our Styleshop";
 
@@ -73,12 +73,12 @@ function sendMail($destination_email, $first_name, $last_name, $generated_passwo
     $html_content = str_replace('{{MAIL}}', $sendFrom, $html_content);
     $mail->Body = $html_content;
   } else {
-    $mail->AddEmbeddedImage('../rsc/welcome/1691050806675-hpcorpoone2880x1260v21jpg_1260x2880.webp', 'home-2');
+    $mail->AddEmbeddedImage('../rsc/welcome/yourMainImage3.webp', 'home-2');
 
-    $mail->AddEmbeddedImage('../rsc/clothes/BUTTONS OVERSIZED - Sweatshirt 1.webp', 'buttons-oversized-men');
-    $mail->AddEmbeddedImage('../rsc/clothes/SLIM TAPER LO BALL - Jeans Tapered Fit 1.webp', 'slim-taper-lo-ball-men');
-    $mail->AddEmbeddedImage('../rsc/clothes/EMPORIO ARMANI BUTTON-DOWN BLOUSE 1.webp', 'emporio-armani-button-down-women');
-    $mail->AddEmbeddedImage('../rsc/clothes/EMPORIO ARMANI GIACCA - BLAZER 1.webp', 'emporio-armani-giacca-women');
+    $mail->AddEmbeddedImage('../rsc/clothes/yourProduct1.webp', 'yourProduct1');
+    $mail->AddEmbeddedImage('../rsc/clothes/yourProduct2.webp', 'yourProduct2');
+    $mail->AddEmbeddedImage('../rsc/clothes/yourProduct3.webp', 'yourProduct3');
+    $mail->AddEmbeddedImage('../rsc/clothes/yourProduct4.webp', 'yourProduct4');
 
     $mail->Subject = "Styleshop - Password Recovery";
 
@@ -132,7 +132,7 @@ function sendMailCheckoutInformation($destination_email, $first_name, $last_name
   $rewardPointsSale = sprintf('%.2f', (($reward_points - ($reward_points % 100)) / 100 * 0.1));
   $salesForPromoCodes = sprintf('%.2f', $salesForPromoCodes);
 
-  $mail->AddEmbeddedImage('../rsc/welcome/1710432541893-314ravdesktopjpg_1260x2880.webp', 'home');
+  $mail->AddEmbeddedImage('../rsc/welcome/yourMainImage.webp', 'home');
   $mail->AddEmbeddedImage('../email_template/rsc/facebook.png', 'facebook');
   $mail->AddEmbeddedImage('../email_template/rsc/instagram.png', 'instagram');
   $mail->AddEmbeddedImage('../email_template/rsc/linkedin.png', 'linkedin');
