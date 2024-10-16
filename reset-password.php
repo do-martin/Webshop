@@ -73,7 +73,7 @@ $username = $username_err = "";
                 </div>
 
                 <div class="modal-footer d-flex justify-content-between">
-                    <a class="btn btn-danger" href="mailto:martin.do@student.reutlingen-university.de">
+                    <a class="btn btn-danger" href="mailto::yourMail@yourMail.de">
                         Contact Support
                     </a>
                     <a href="products.php" class="btn btn-secondary">Back To Products</a>

@@ -8,8 +8,8 @@
                     <h5 class="mb-1 footer-header">Styleshop</h5>
                     <div class="footer-body">Clothing according to the latest trend.</div>
 
-                    <div class="footer-body">Alteburgstraße 150</div>
-                    <div class="footer-body">72762 Reutlingen</div>
+                    <div class="footer-body">YourAdress 10</div>
+                    <div class="footer-body">00000 YourCity</div>
                 </a>
             </div>
             <div class="col-sm-4 footer-header">
@@ -24,8 +24,8 @@
                         Telefon: 07121 - 00 00 00
                     </a>
                 </div>
-                <a class="a-email footer-body" href="mailto:martin.do@student.reutlingen-university.de" style="color:white;">
-                    E-Mail: martin.do@student.reutlingen-university.de
+                <a class="a-email footer-body" href="mailto::yourMail@yourMail.de" style="color:white;">
+                    E-Mail: :yourMail@yourMail.de
                 </a>
             </div>
         </div>
